@@ -18,7 +18,7 @@ The following
 	- hostapd.accept
 	- mac-time-of-day-acces.py
 
-4. Configure crontab (`$ sudo crontab -u root -e`) with the following rule:
+4. Configure crontab (`$ sudo crontab -u root -e`) with the following rule to execute the script every minute:
 
         * * * * * python /etc/hostapd/mac-time-of-day-access.py
 
